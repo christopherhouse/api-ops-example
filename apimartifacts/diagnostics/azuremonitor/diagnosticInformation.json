@@ -1,0 +1,34 @@
+{
+  "properties": {
+    "loggerId": "/subscriptions/e1f57a36-4892-4716-9a3f-661432b39dbe/resourceGroups/CC-APIOPS/providers/Microsoft.ApiManagement/service/cc-apiops-apim/loggers/azuremonitor",
+    "backend": {
+      "request": {
+        "dataMasking": {
+          "queryParams": [
+            {
+              "mode": "Hide",
+              "value": "*"
+            }
+          ]
+        }
+      }
+    },
+    "frontend": {
+      "request": {
+        "dataMasking": {
+          "queryParams": [
+            {
+              "mode": "Hide",
+              "value": "*"
+            }
+          ]
+        }
+      }
+    },
+    "logClientIp": true,
+    "sampling": {
+      "percentage": 100,
+      "samplingType": "fixed"
+    }
+  }
+}
