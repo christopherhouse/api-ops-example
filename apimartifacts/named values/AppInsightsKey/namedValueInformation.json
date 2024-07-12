@@ -1,0 +1,10 @@
+{
+  "properties": {
+    "displayName": "AppInsightsKey",
+    "keyVault": {
+      "secretIdentifier": "https://cc-apiops-kv.vault.azure.net/secrets/AppInsightsKey"
+    },
+    "secret": true,
+    "tags": []
+  }
+}
