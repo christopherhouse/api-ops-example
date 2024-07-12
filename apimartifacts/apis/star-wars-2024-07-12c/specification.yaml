@@ -32,13 +32,15 @@ paths:
   /movies:
     get:
       summary: Get Movies
+      description: Get Movies
       operationId: get-movies
       responses:
         '200':
-          description: 
+          description: ''
   '/movie/{id}':
     get:
       summary: Get Movie
+      description: Get Movie
       operationId: get-movie
       parameters:
         - name: id
@@ -48,7 +50,7 @@ paths:
             type: ''
       responses:
         '200':
-          description: 
+          description: ''
 components:
   securitySchemes:
     apiKeyHeader:
