@@ -2,7 +2,7 @@
   "properties": {
     "path": "starwars",
     "apiRevision": "1",
-    "apiVersion": "2024-07-12",
+    "apiVersion": "2024-07-12c",
     "apiVersionSetId": "/subscriptions/e1f57a36-4892-4716-9a3f-661432b39dbe/resourceGroups/CC-APIOPS/providers/Microsoft.ApiManagement/service/cc-apiops-apim/apiVersionSets/669175f28980e8bdf1a10b14",
     "authenticationSettings": {
       "oAuth2AuthenticationSettings": [],

@@ -14,7 +14,7 @@
     "protocols": [
       "https"
     ],
-    "serviceUrl": "https://swapi.api/api",
+    "serviceUrl": "https://swapi.dev/api",
     "subscriptionKeyParameterNames": {
       "header": "Ocp-Apim-Subscription-Key",
       "query": "subscription-key"
