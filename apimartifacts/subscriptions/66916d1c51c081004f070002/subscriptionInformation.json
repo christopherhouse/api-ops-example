@@ -1,9 +1,0 @@
-{
-  "properties": {
-    "displayName": "Product Unlimited subscription",
-    "scope": "/subscriptions/e1f57a36-4892-4716-9a3f-661432b39dbe/resourceGroups/CC-APIOPS/providers/Microsoft.ApiManagement/service/cc-apiops-apim/products/unlimited",
-    "allowTracing": false,
-    "ownerId": "/subscriptions/e1f57a36-4892-4716-9a3f-661432b39dbe/resourceGroups/CC-APIOPS/providers/Microsoft.ApiManagement/service/cc-apiops-apim/users/1",
-    "state": "active"
-  }
-}
