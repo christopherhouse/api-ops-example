@@ -1,1 +1,7 @@
 apimServiceName: cc-apiops-test
+namedValues:
+- name: AppInsightsKey
+  properties:
+    displayName: AppInsightsKey
+    keyVault:
+      secretIdentifier: https://cc-apiops-test-kv.vault.azure.net/secrets/AppInsightsKey
