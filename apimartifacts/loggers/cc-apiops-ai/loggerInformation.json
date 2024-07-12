@@ -1,0 +1,10 @@
+{
+  "properties": {
+    "loggerType": "applicationInsights",
+    "credentials": {
+      "instrumentationKey": "{{Logger-Credentials--669170bf217d200b840ae9d3}}"
+    },
+    "isBuffered": true,
+    "resourceId": "/subscriptions/e1f57a36-4892-4716-9a3f-661432b39dbe/resourceGroups/CC-APIOPS/providers/microsoft.insights/components/cc-apiops-ai"
+  }
+}
