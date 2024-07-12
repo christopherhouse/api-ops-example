@@ -1,0 +1,36 @@
+{
+  "properties": {
+    "loggerId": "/subscriptions/e1f57a36-4892-4716-9a3f-661432b39dbe/resourceGroups/CC-APIOPS/providers/Microsoft.ApiManagement/service/cc-apiops-apim/loggers/cc-apiops-ai",
+    "alwaysLog": "allErrors",
+    "backend": {
+      "request": {
+        "dataMasking": {
+          "queryParams": [
+            {
+              "mode": "Hide",
+              "value": "*"
+            }
+          ]
+        }
+      }
+    },
+    "frontend": {
+      "request": {
+        "dataMasking": {
+          "queryParams": [
+            {
+              "mode": "Hide",
+              "value": "*"
+            }
+          ]
+        }
+      }
+    },
+    "httpCorrelationProtocol": "Legacy",
+    "logClientIp": true,
+    "sampling": {
+      "percentage": 100,
+      "samplingType": "fixed"
+    }
+  }
+}
