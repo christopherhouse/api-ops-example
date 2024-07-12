@@ -2,9 +2,9 @@ openapi: 3.0.1
 info:
   title: Star Wars
   description: ''
-  version: '2024-07-12'
+  version: 2024-07-12a
 servers:
-  - url: https://cc-apiops-apim.azure-api.net/starwars/2024-07-12
+  - url: https://cc-apiops-apim.azure-api.net/starwars/2024-07-12a
 paths:
   /characters:
     get:
@@ -16,7 +16,7 @@ paths:
           description: ''
   '/characters/{id}':
     get:
-      summary: Get Charactter
+      summary: Get Character
       description: Get Charactter
       operationId: get-charactter
       parameters:
