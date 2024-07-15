@@ -1,0 +1,74 @@
+openapi: 3.0.1
+info:
+  title: Star Wars
+  description: ''
+  version: '2024-07-15'
+servers:
+  - url: https://cc-apiops-apim.azure-api.net/starwars/2024-07-15
+paths:
+  /characters:
+    get:
+      summary: Get Characters
+      description: Get Characters
+      operationId: get-characters
+      responses:
+        '200':
+          description: ''
+  '/characters/{id}':
+    get:
+      summary: Get Character
+      description: Get Charactter
+      operationId: get-charactter
+      parameters:
+        - name: id
+          in: path
+          description: Character identifier
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+  /movies:
+    get:
+      summary: Get Movies
+      description: Get Movies
+      operationId: get-movies
+      responses:
+        '200':
+          description: ''
+  '/movie/{id}':
+    get:
+      summary: Get Movie
+      description: Get Movie
+      operationId: get-movie
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: ''
+      responses:
+        '200':
+          description: ''
+  /planets:
+    get:
+      summary: Get Planets
+      description: Returns a list of planets
+      operationId: get-planets
+      responses:
+        '200':
+          description: 
+components:
+  securitySchemes:
+    apiKeyHeader:
+      type: apiKey
+      name: Ocp-Apim-Subscription-Key
+      in: header
+    apiKeyQuery:
+      type: apiKey
+      name: subscription-key
+      in: query
+security:
+  - apiKeyHeader: [ ]
+  - apiKeyQuery: [ ]
