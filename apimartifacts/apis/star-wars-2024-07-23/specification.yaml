@@ -2,10 +2,18 @@ openapi: 3.0.1
 info:
   title: Star Wars
   description: ''
-  version: '2024-07-15'
+  version: '2024-07-23'
 servers:
-  - url: https://cc-apiops-apim.azure-api.net/starwars/2024-07-15
+  - url: https://cc-apiops-apim.azure-api.net/starwars/2024-07-23
 paths:
+  /planets:
+    get:
+      summary: Get Planets
+      description: Returns a list of planets
+      operationId: get-planets
+      responses:
+        '200':
+          description: ''
   /characters:
     get:
       summary: Get Characters
@@ -51,14 +59,19 @@ paths:
       responses:
         '200':
           description: ''
-  /planets:
+  '/planets/{id}':
     get:
-      summary: Get Planets
-      description: Returns a list of planets
-      operationId: get-planets
+      summary: Get Planet By Id
+      operationId: get-planet-by-id
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: ''
       responses:
         '200':
-          description: ''
+          description: 
 components:
   securitySchemes:
     apiKeyHeader:
